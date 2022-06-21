@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46e2f28e64c476b43bf401fbad0c0596, type: 3}
+  m_Name: AppDatabase
+  m_EditorClassIdentifier: 
+  appDetails:
+  - AppName: Phone
+    AppIcon: {fileID: 2800000, guid: 5378385e7185050458880ca0d4b297bb, type: 3}
+  - AppName: Messages
+    AppIcon: {fileID: 2800000, guid: 51ddf5f87ff261644a11c2365a75a103, type: 3}
+  - AppName: Gmail
+    AppIcon: {fileID: 2800000, guid: a77a70de994a19343aef9bc9059429f5, type: 3}
+  - AppName: Discord
+    AppIcon: {fileID: 2800000, guid: 56882d043a5b287469c1ec2352dfb276, type: 3}
+  - AppName: TikTok
+    AppIcon: {fileID: 2800000, guid: 6e23146ef8db3e84fa0c0152d416d0c4, type: 3}
+  - AppName: Spotify
+    AppIcon: {fileID: 2800000, guid: 9f4abe358aa69a544a7a13e28e98a99c, type: 3}
+  - AppName: Netflix
+    AppIcon: {fileID: 2800000, guid: 6b55d5e88a525c146b57a62008834d13, type: 3}
+  - AppName: Maps
+    AppIcon: {fileID: 2800000, guid: 0f85fb5800e7d2f44ae31681d54cc82d, type: 3}
+  - AppName: Amazon
+    AppIcon: {fileID: 2800000, guid: 10bf6d32b3b0c9e4687dc9500dc6ee37, type: 3}
+  - AppName: Youtube
+    AppIcon: {fileID: 2800000, guid: 4ac58ab1e362f3045a405546860eeb8e, type: 3}
+  - AppName: Clock
+    AppIcon: {fileID: 2800000, guid: 53c6415625816ad44875c7a90e1bb475, type: 3}
+  - AppName: Camera
+    AppIcon: {fileID: 2800000, guid: 0bc67a8683c725f4484a9f597df989ec, type: 3}
+  - AppName: Settings
+    AppIcon: {fileID: 2800000, guid: 8f3ee07d4d6db184c8d3a578c7c4e69a, type: 3}
+  - AppName: Contacts
+    AppIcon: {fileID: 2800000, guid: 05f774ab43774b242a2b4a4154680832, type: 3}
+  - AppName: Reddit
+    AppIcon: {fileID: 2800000, guid: 232bbf9993b852247a03bca89b326824, type: 3}
+  - AppName: Translate
+    AppIcon: {fileID: 2800000, guid: 947b570bf919b6d4b80221b2346073fc, type: 3}
+  - AppName: Telegram
+    AppIcon: {fileID: 2800000, guid: 2a888938d482a1c4993ad4a79bc8a26c, type: 3}
+  - AppName: Calendar
+    AppIcon: {fileID: 2800000, guid: 04ee12334630eec41a88120a3de98ae8, type: 3}
+  - AppName: Files
+    AppIcon: {fileID: 2800000, guid: 2ba277c6d37536c4ca46634c74176f4b, type: 3}
+  appColors:
+  - {r: 1, g: 0.3, b: 1, a: 1}
+  - {r: 0.3, g: 0.3549018, b: 1, a: 1}
+  - {r: 1, g: 0.3, b: 0.3, a: 1}
+  - {r: 1, g: 0.8847059, b: 0.3, a: 1}
+  - {r: 0.3, g: 1, b: 0.5278432, a: 1}
+  - {r: 0.7419607, g: 0.3, b: 1, a: 1}
+  - {r: 0.3, g: 0.6266667, b: 1, a: 1}
+  - {r: 0.3, g: 0.80235296, b: 1, a: 1}
+  - {r: 0.3, g: 1, b: 0.7666667, a: 1}
+  - {r: 0.89568627, g: 1, b: 0.3, a: 1}
+  - {r: 1, g: 0.7447059, b: 0.3, a: 1}

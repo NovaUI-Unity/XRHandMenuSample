@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &5530199968937767502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308771057746583538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0a75001f00536d40ad613f41ed2bdc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visuals:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: ToggleVisuals, ns: NovaSamples.HandMenu, asm: Assembly-CSharp}
+      data:
+        Icon: {fileID: 1308771056859456600}
+        OnIcon: {fileID: 0}
+        OffIcon: {fileID: 0}
+        ToggleOnAnimation:
+          TargetColor: {r: 0, g: 0.3333335, b: 1, a: 1}
+          Target: {fileID: 6592767490857896630}
+        ToggleOffAnimation:
+          TargetColor: {r: 0.24313726, g: 0.2627451, b: 0.30588236, a: 1}
+          Target: {fileID: 6592767490857896630}
+        animationDuration: 0.15
+--- !u!1001 &622401593424613144
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1912489030904032064, guid: 0dd9a03c48076584b8e19dcdae2715f3, type: 3}
+      propertyPath: visuals.Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912489030904032064, guid: 0dd9a03c48076584b8e19dcdae2715f3, type: 3}
+      propertyPath: visuals.Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912489030904032064, guid: 0dd9a03c48076584b8e19dcdae2715f3, type: 3}
+      propertyPath: visuals.Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912489032298402026, guid: 0dd9a03c48076584b8e19dcdae2715f3, type: 3}
+      propertyPath: m_Name
+      value: Toggle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912489032298402027, guid: 0dd9a03c48076584b8e19dcdae2715f3, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912489032298402027, guid: 0dd9a03c48076584b8e19dcdae2715f3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912489032298402027, guid: 0dd9a03c48076584b8e19dcdae2715f3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912489032298402027, guid: 0dd9a03c48076584b8e19dcdae2715f3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912489032298402027, guid: 0dd9a03c48076584b8e19dcdae2715f3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912489032298402027, guid: 0dd9a03c48076584b8e19dcdae2715f3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912489032298402027, guid: 0dd9a03c48076584b8e19dcdae2715f3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912489032298402027, guid: 0dd9a03c48076584b8e19dcdae2715f3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912489032298402027, guid: 0dd9a03c48076584b8e19dcdae2715f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912489032298402027, guid: 0dd9a03c48076584b8e19dcdae2715f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912489032298402027, guid: 0dd9a03c48076584b8e19dcdae2715f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6042988378476119470, guid: 0dd9a03c48076584b8e19dcdae2715f3, type: 3}
+      propertyPath: visuals.Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6042988378476119470, guid: 0dd9a03c48076584b8e19dcdae2715f3, type: 3}
+      propertyPath: visuals.Color.g
+      value: 0.3333335
+      objectReference: {fileID: 0}
+    - target: {fileID: 6042988378476119470, guid: 0dd9a03c48076584b8e19dcdae2715f3, type: 3}
+      propertyPath: visuals.Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0dd9a03c48076584b8e19dcdae2715f3, type: 3}
+--- !u!1 &1308771057746583538 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1912489032298402026, guid: 0dd9a03c48076584b8e19dcdae2715f3, type: 3}
+  m_PrefabInstance: {fileID: 622401593424613144}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6592767490857896630 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6042988378476119470, guid: 0dd9a03c48076584b8e19dcdae2715f3, type: 3}
+  m_PrefabInstance: {fileID: 622401593424613144}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 816c4f69f9c763745b3e13081538e4c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1308771056859456600 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1912489030904032064, guid: 0dd9a03c48076584b8e19dcdae2715f3, type: 3}
+  m_PrefabInstance: {fileID: 622401593424613144}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c395591f6f08fb41897eb437d91b587, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

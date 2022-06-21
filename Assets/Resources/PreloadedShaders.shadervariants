@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PreloadedShaders
+  m_Shaders:
+  - first: {fileID: 4800000, guid: d547bcfb38bd159439a11c72e4fa2b30, type: 3}
+    second:
+      variants:
+      - keywords: NOVA_CLIP_RECT NOVA_SUPER_SAMPLE STEREO_MULTIVIEW_ON
+        passType: 0
+      - keywords: NOVA_SUPER_SAMPLE STEREO_MULTIVIEW_ON
+        passType: 0
+  - first: {fileID: 4800000, guid: 26643191877a5fa46a0bd3b4091bb13e, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH NOVA_SUPER_SAMPLE STEREO_MULTIVIEW_ON
+        passType: 4
+      - keywords: NOVA_SUPER_SAMPLE POINT STEREO_MULTIVIEW_ON
+        passType: 5
+      - keywords: NOVA_SUPER_SAMPLE
+        passType: 8
+  - first: {fileID: 4800000, guid: 460842311d918754a9ae81ace8c5cb24, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH NOVA_CLIP_RECT STEREO_MULTIVIEW_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH STEREO_MULTIVIEW_ON
+        passType: 4
+      - keywords: 
+        passType: 8
+      - keywords: NOVA_CLIP_RECT
+        passType: 8
+  - first: {fileID: 4800000, guid: a6409aa60c7400649ae02d9cfe113f84, type: 3}
+    second:
+      variants:
+      - keywords: NOVA_CLIP_RECT NOVA_DYNAMIC_IMAGE STEREO_MULTIVIEW_ON
+        passType: 0
+      - keywords: NOVA_CLIP_RECT NOVA_INNER_BORDER NOVA_INNER_SHADOW STEREO_MULTIVIEW_ON
+        passType: 0
+      - keywords: NOVA_CLIP_RECT NOVA_INNER_BORDER NOVA_STATIC_IMAGE STEREO_MULTIVIEW_ON
+        passType: 0
+      - keywords: NOVA_CLIP_RECT NOVA_INNER_SHADOW STEREO_MULTIVIEW_ON
+        passType: 0
+      - keywords: NOVA_CLIP_RECT NOVA_STATIC_IMAGE STEREO_MULTIVIEW_ON
+        passType: 0
+      - keywords: NOVA_DYNAMIC_IMAGE STEREO_MULTIVIEW_ON
+        passType: 0
+      - keywords: NOVA_STATIC_IMAGE STEREO_MULTIVIEW_ON
+        passType: 0
+      - keywords: STEREO_MULTIVIEW_ON
+        passType: 0
+  - first: {fileID: 4800000, guid: 7ea2eb9e383713b49aca9259d4e9dff4, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH NOVA_CLIP_RECT STEREO_MULTIVIEW_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH STEREO_MULTIVIEW_ON
+        passType: 4
+      - keywords: NOVA_CLIP_RECT POINT STEREO_MULTIVIEW_ON
+        passType: 5
+      - keywords: POINT STEREO_MULTIVIEW_ON
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: NOVA_CLIP_RECT SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: e8706f14122ff8649b9a91722013b21d, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH NOVA_CLIP_RECT STEREO_MULTIVIEW_ON
+        passType: 4
+      - keywords: NOVA_CLIP_RECT POINT STEREO_MULTIVIEW_ON
+        passType: 5
+      - keywords: NOVA_CLIP_RECT SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: aedfe15c0ee196e42be8659f8ea22964, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH NOVA_CLIP_RECT NOVA_DYNAMIC_IMAGE STEREO_MULTIVIEW_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH NOVA_CLIP_RECT NOVA_STATIC_IMAGE STEREO_MULTIVIEW_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH NOVA_CLIP_RECT STEREO_MULTIVIEW_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH STEREO_MULTIVIEW_ON
+        passType: 4
+      - keywords: NOVA_CLIP_RECT NOVA_DYNAMIC_IMAGE POINT STEREO_MULTIVIEW_ON
+        passType: 5
+      - keywords: NOVA_CLIP_RECT NOVA_STATIC_IMAGE POINT STEREO_MULTIVIEW_ON
+        passType: 5
+      - keywords: NOVA_CLIP_RECT POINT STEREO_MULTIVIEW_ON
+        passType: 5
+      - keywords: POINT STEREO_MULTIVIEW_ON
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: NOVA_CLIP_RECT NOVA_DYNAMIC_IMAGE SHADOWS_DEPTH
+        passType: 8
+      - keywords: NOVA_CLIP_RECT NOVA_STATIC_IMAGE SHADOWS_DEPTH
+        passType: 8
+      - keywords: NOVA_CLIP_RECT SHADOWS_DEPTH
+        passType: 8
