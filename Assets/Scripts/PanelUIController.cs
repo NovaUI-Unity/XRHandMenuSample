@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Hands;
 
 namespace NovaSamples.HandMenu
 {
@@ -8,18 +9,15 @@ namespace NovaSamples.HandMenu
     /// </summary>
     public class PanelUIController : MonoBehaviour
     {
-
-
         [SerializeField]
         [Tooltip("The camera attached to the user's head.")]
         private Camera headTrackedCamera = null;
 
         [Header("Hand Tracking")]
-#if OCULUS
         [SerializeField]
-        [Tooltip("Oculus's articulated hand-tracking component.")]
-        private OVRHand hand = null;
-#endif
+        [Tooltip("Unity's articulated hand-tracking event component.")]
+        private XRHandTrackingEvents hand = null;
+
         [SerializeField]
         [Tooltip("A transform at the center of the hand-tracked palm.")]
         private Transform palmTransform = null;
@@ -96,8 +94,7 @@ namespace NovaSamples.HandMenu
                 return;
             }
 
-#if OCULUS
-            if (!hand.IsTracked)
+            if (!hand.handIsTracked)
             {
                 // Hand isn't tracked, ensure hand launcher is hidden.
                 HideHandLauncher();
@@ -125,11 +122,6 @@ namespace NovaSamples.HandMenu
                 // Update position
                 RepositionMenu();
             }
-#else
-            // No OVRHand, ensure hand launcher is hidden.
-            HideHandLauncher();
-            return;
-#endif
         }
 
         /// <summary>

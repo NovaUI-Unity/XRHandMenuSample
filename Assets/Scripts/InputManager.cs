@@ -1,6 +1,7 @@
 using Nova;
 using System;
 using UnityEngine;
+using UnityEngine.XR.Hands;
 
 namespace NovaSamples.HandMenu
 {
@@ -9,8 +10,6 @@ namespace NovaSamples.HandMenu
     /// </summary>
     public class InputManager : MonoBehaviour
     {
-#if OCULUS
-
         /// <summary>
         /// A struct tracking a single OVRHand and a SphereCollider on tip of the hand's index finger
         /// </summary>
@@ -20,17 +19,16 @@ namespace NovaSamples.HandMenu
             [Tooltip("A sphere collider on the tip of the Hand's index finger")]
             public SphereCollider Collider;
             [Tooltip("The tracked hand.")]
-            public OVRHand Hand;
+            public XRHandTrackingEvents Hand;
 
             [NonSerialized]
             public uint ID;
 
             public void Update()
             {
-                if (!Hand.IsTracked)
+                if (!Hand.handIsTracked)
                 {
-                   // Interaction.Cancel(ID);
-                   // return;
+                    return;
                 }
 
                 Interaction.Point(Collider, ID);
@@ -57,14 +55,10 @@ namespace NovaSamples.HandMenu
 
         private void Update()
         {
-            // Step OVR
-            OVRInput.Update();
-
             // Update each hand.
             leftHand.Update();
             rightHand.Update();
         }
-#endif
     }
 }
 

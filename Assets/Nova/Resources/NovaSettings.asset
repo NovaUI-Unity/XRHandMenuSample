@@ -24,3 +24,10 @@ MonoBehaviour:
     TextBlockLightingModels: 9
     UIBlock3DLightingModels: 10
     ClickFrameDeltaThreshold: 1
+  ButtonPrefab: {fileID: 2905764967384224460, guid: 33994460efecd9d4794903c0f8d9a630, type: 3}
+  TogglePrefab: {fileID: 6516097741255810359, guid: c4c133e6e71b6cb4f8ff3326f1632fa0, type: 3}
+  SliderPrefab: {fileID: 8438892594822831693, guid: cd60a284f8096c3458c9e34f4da59f66, type: 3}
+  DropdownPrefab: {fileID: 5760967405154365189, guid: 6c171bbb6a47c0045aac94494c48f719, type: 3}
+  TextFieldPrefab: {fileID: 433028253456703510, guid: 4384c656ba261894eb263de6feb0b91b, type: 3}
+  ScrollViewPrefab: {fileID: 4310017466626043759, guid: db2faff79ba10e548bfcb494aed8ea16, type: 3}
+  UIRootPrefab: {fileID: 7599235840010813282, guid: 46640eb424e726547b5f2426e3180e95, type: 3}

@@ -9,5 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/HandMenu.unity
     guid: 1648bc16572af9e47827582b43ba2879
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 33cf74361ffd1194da624ee211c61569, type: 2}
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ecd3c30c658ce3d449e6708ba3dcacf1, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: ff5dc04a377037f4b835628984543f52, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: fff6382d5ba47f048ae2ccdef94ef79e, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: fd07ea54af56ae84da4a8b54d3234338, type: 2}
